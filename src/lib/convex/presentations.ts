@@ -65,7 +65,7 @@ export const beginPresentation = mutation({
 
     return {
       success: true,
-      message: `Presentation for ${args.projectName} has began.`,
+      message: `Presentation for ${args.projectName} began.`,
     };
   },
 });
